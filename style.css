@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body {
+    background-image: url("images/21012329607.png");
+    background-color: rgba(0, 0, 0, 0.593); /* adds a dark overlay */
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    height: 100vh;
+    width: 100%;
+}
+
+.title h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 4rem;
+}
+
+.choice{
+
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    object-fit: cover;
+    
+}
+
+
+
+.choice-img{
+    border-radius: 50%;
+    aspect-ratio: 1/3;
+    height: 30vh;
+    width: 15vw;
+    gap: 2rem;
+}
+
+
+.score-box{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+
+.score-num{
+    display: flex;
+    color: yellow;
+    justify-content: center;
+
+}
+
+
+.msg-box h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+.score-num-2{
+    padding-left: 5rem;
+
+}

@@ -9,6 +9,7 @@ const playgame = (userid) => {
     console.log("user choice =" + userid);
 };
 
+
 choices.forEach((choice) => {
 choice.addEventListener("click",() => {
     const userid = choice.id;

@@ -15,6 +15,17 @@ body {
     width: 100%;
 }
 
+.mute{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    
+}
+
+
+
 .title h1{
     display: flex;
     justify-content: center;
@@ -77,38 +88,57 @@ body {
 
 }
 
+.msg-box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
 
-.msg-box h3{
+.msg-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5rem;
-    color: white;
-}
+    
+  }
 
+  #msgbox {
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 0.9rem;
+    background-color: #090807;
+    color: white;
+    border-radius:19px 10px 19px 10px;
+  }
 
 .score-num-2{
     padding-left: 5rem;
 
 }
 
-
-.reset-btn{
+.reset-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
 
-
-
-#reset{
+#reset {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 3.5rem;
     width: 6rem;
     font-size: 1.8rem;
     padding: 1rem;
-    border-radius: 20%;
+    border-radius: 19px 10px 19px 10px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#reset:hover {
+    transform: scale(1.1);
+    background-color: aquamarine;
 }
